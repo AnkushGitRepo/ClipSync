@@ -83,7 +83,8 @@ builder.Services.AddCors(options =>
         policy.WithOrigins(
                 "http://localhost:4200",
                 "http://localhost:4000",
-                "https://clipsync.vercel.app")
+                "https://clipsync.vercel.app",
+                "https://clipsync-neon.vercel.app")
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials());
