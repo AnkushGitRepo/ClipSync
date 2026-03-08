@@ -17,6 +17,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="DTOs/DTOs.cs" />
+    <Compile Include="Files/Commands/FileCommands.cs" />
+    <Compile Include="Files/Queries/FileQueries.cs" />
+    <Compile Include="Interfaces/IFileStorageService.cs" />
+    <Compile Include="Interfaces/IJwtTokenService.cs" />
+    <Compile Include="Services/JwtTokenService.cs" />
+    <Compile Include="Sessions/Commands/SessionCommands.cs" />
+    <Compile Include="Sessions/Queries/SessionQueries.cs" />
+    <Compile Include="Validators/Validators.cs" />
+  </ItemGroup>
 
 </Project>

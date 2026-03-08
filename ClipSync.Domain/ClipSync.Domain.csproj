@@ -5,6 +5,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Entities/FileTransfer.cs" />
+    <Compile Include="Entities/Participant.cs" />
+    <Compile Include="Entities/Session.cs" />
+    <Compile Include="Interfaces/IFileRepository.cs" />
+    <Compile Include="Interfaces/IParticipantRepository.cs" />
+    <Compile Include="Interfaces/ISessionRepository.cs" />
+    <Compile Include="ValueObjects/SessionCode.cs" />
+  </ItemGroup>
 
 </Project>

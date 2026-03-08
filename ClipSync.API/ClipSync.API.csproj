@@ -5,7 +5,18 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultContentItems>false</EnableDefaultContentItems>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Controllers/FilesController.cs" />
+    <Compile Include="Controllers/HealthController.cs" />
+    <Compile Include="Controllers/SessionsController.cs" />
+    <Compile Include="Hubs/ClipboardHub.cs" />
+    <Compile Include="Middleware/ErrorHandlingMiddleware.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.3" />
