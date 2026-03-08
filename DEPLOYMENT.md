@@ -32,7 +32,7 @@ Angular applications compile down to static HTML/CSS/JS files, which means they 
 
 Hosting a .NET API requires a server environment to run the runtime. Several providers offer generous free tiers for Web Services.
 
-**Recommended Platform**: [Render](https://render.com) or [Railway](https://railway.app) (Railway offers a free trial credit system)
+**Recommended Platform**: [Render](https://render.cHelpom) or [Railway](https://railway.app) (Railway offers a free trial credit system)
 
 ### Steps for Render (Free Tier):
 1.  **Preparation**: Make sure your .NET API code (the root of the project with `.sln`) is pushed to GitHub.
