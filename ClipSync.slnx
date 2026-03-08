@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ClipSync.API/ClipSync.API.csproj" />
+  <Project Path="ClipSync.Application/ClipSync.Application.csproj" />
+  <Project Path="ClipSync.Domain/ClipSync.Domain.csproj" />
+  <Project Path="ClipSync.Infrastructure/ClipSync.Infrastructure.csproj" />
+  <Project Path="ClipSync.Tests/ClipSync.Tests.csproj" />
+</Solution>

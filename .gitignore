@@ -1,0 +1,40 @@
+# Mac OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# IDEs / Editors
+.idea/
+.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# .NET Core
+bin/
+obj/
+TestResults/
+*.log
+
+# SQLite Databases (Local Dev)
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Node / Angular (applies globally)
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.pnpm-debug.log*
+
+# ClipSync Local File Storage (Prevents uploading user's test files to GitHub)
+uploads/
+/ClipSync.API/uploads/
+*.tmp

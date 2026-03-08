@@ -1,0 +1,6 @@
+@ClipSync.API_HostAddress = http://localhost:5285
+
+GET {{ClipSync.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
