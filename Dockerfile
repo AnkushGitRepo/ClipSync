@@ -3,7 +3,7 @@ FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /app/src
 
 # Copy the solution and project files first
-COPY ["ClipSync.sln", "./"]
+COPY ["ClipSync.slnx", "./"]
 COPY ["ClipSync.API/ClipSync.API.csproj", "ClipSync.API/"]
 COPY ["ClipSync.Application/ClipSync.Application.csproj", "ClipSync.Application/"]
 COPY ["ClipSync.Domain/ClipSync.Domain.csproj", "ClipSync.Domain/"]
