@@ -1,6 +1,6 @@
 # Use the .NET 10 SDK image to build the app
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
-WORKDIR /src
+WORKDIR /app/src
 
 # Copy the solution and project files first
 COPY ["ClipSync.sln", "./"]
@@ -16,7 +16,7 @@ RUN dotnet restore "ClipSync.API/ClipSync.API.csproj"
 COPY . .
 
 # Build and publish
-WORKDIR "/src/ClipSync.API"
+WORKDIR "/app/src/ClipSync.API"
 RUN dotnet publish "ClipSync.API.csproj" -c Release -o /app/publish
 
 # Final runtime image
