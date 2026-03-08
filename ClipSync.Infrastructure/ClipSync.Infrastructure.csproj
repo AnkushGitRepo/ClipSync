@@ -18,7 +18,19 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Persistence/ClipSyncDbContext.cs" />
+    <Compile Include="Repositories/FileRepository.cs" />
+    <Compile Include="Repositories/ParticipantRepository.cs" />
+    <Compile Include="Repositories/SessionRepository.cs" />
+    <Compile Include="Storage/LocalFileStorageService.cs" />
+    <Compile Include="Migrations/20260308134014_RemovePinHash.Designer.cs" />
+    <Compile Include="Migrations/20260308134014_RemovePinHash.cs" />
+    <Compile Include="Migrations/ClipSyncDbContextModelSnapshot.cs" />
+  </ItemGroup>
 
 </Project>
