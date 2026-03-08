@@ -1,0 +1,12 @@
+.git
+.idea/
+.vscode/
+
+bin/
+obj/
+
+# Exclude the frontend completely so the .NET Docker context stays small
+clipsync-frontend/
+node_modules/
+.angular/
+dist/
